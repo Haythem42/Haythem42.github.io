@@ -810,8 +810,14 @@ body.light-theme {
     width: 75px !important;
 }
 
-.testimonial__img {
+.testimonial__img1 {
     width: 60px;
+    border-radius: 3rem;
+    margin-bottom: 1rem;
+}
+
+.testimonial__img2 {
+    width: 80px;
     border-radius: 3rem;
     margin-bottom: 1rem;
 }
@@ -819,6 +825,12 @@ body.light-theme {
 .testimonial__name {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
+    margin-bottom: 0.01rem;
+}
+
+.testimonial__role {
+    font-size: var(--small-font-size);
+    font-weight: lighter;
     margin-bottom: .25rem;
 }
 
