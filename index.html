@@ -3,874 +3,829 @@
 
 <head>
     <meta charset="UTF-8">
-    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viFewport" content="width=device-width, initial-scale=1.0">
 
-    <!-------- UNICONS -------->
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/Kirby-Favicon.png" type="image/x-icon">
+
+    <!--=============== BOXICONS/UNICONS ===============-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
-    <!-------- SWIPER CSS ------->
+    <!--=============== SWIPER CSS ===============-->
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
-    <!-------- CSS ------->
+    <!--=============== CSS ===============-->
     <link rel="stylesheet" href="assets/css/styles.css">
 
-    <title>Portfolio by Item</title>
+    <title> Portfolio by Haythem </title>
 </head>
 
 <body>
-    <!------- HEADER ------->
+    <!--=============== HEADER ===============-->
     <header class="header" id="header">
         <nav class="nav container">
-            <a href="#" class="nav__logo">Item</a>
+            <a href="" class="nav__logo">Haythem</a>
 
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list grid">
+            <div class="nav__menu">
+                <ul class="nav__list">
                     <li class="nav__item">
                         <a href="#home" class="nav__link active-link">
-                            <i class="uil uil-estate nav__icon"></i> Accueil
+                            <i class='bx bx-home-alt'></i>
                         </a>
                     </li>
+
                     <li class="nav__item">
                         <a href="#about" class="nav__link">
-                            <i class="uil uil-user nav__icon"></i> Me connaître
+                            <i class='bx bx-user'></i>
                         </a>
                     </li>
+
                     <li class="nav__item">
                         <a href="#skills" class="nav__link">
-                            <i class="uil uil-file-alt nav__icon"></i> Compétences
+                            <i class='bx bx-briefcase-alt-2'></i>
                         </a>
                     </li>
+
                     <li class="nav__item">
                         <a href="#services" class="nav__link">
-                            <i class="uil uil-briefcase-alt nav__icon"></i> Projets
+                            <i class='bx bx-book'></i>
                         </a>
                     </li>
+
                     <li class="nav__item">
-                        <a href="#portfolio" class="nav__link">
-                            <i class="uil uil-scenery nav__icon"></i> Veille
+                        <a href="#work" class="nav__link">
+                            <i class='bx bx-devices'></i>
                         </a>
                     </li>
+
                     <li class="nav__item">
                         <a href="#contact" class="nav__link">
-                            <i class="uil uil-message nav__icon"></i> Contact
+                            <i class='bx bx-message-square-detail'></i>
                         </a>
                     </li>
                 </ul>
-                <i class="uil uil-times nav__close" id="nav-close"></i>
             </div>
 
-            <div class="nav__btns">
-                <!-- Theme change button -->
-                <i class="uil uil-moon change-theme" id="theme-button"></i>
-
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class="uil uil-apps"></i>
-                </div>
-            </div>
+            <!-- Theme change button -->
+            <i class='bx bx-moon change-theme' id="theme-button"></i>
         </nav>
-
     </header>
 
-    <!------- MAIN ------->
+    <!--=============== MAIN ===============-->
     <main class="main">
-        <!----- HOME ----->
+        <!--=============== HOME ===============-->
         <section class="home section" id="home">
             <div class="home__container container grid">
-                <div class="home__content grid">
-                    <div class="home__social">
-                        <a href="https://www.linkedin.com/in/haythem-belhadj-mansour/" target="_blank" class="home__social-icon">
-                            <i class="uil uil-linkedin-alt"></i>
-                        </a>
+                <div class="home__data">
+                    <span class="home__greeting">Bonjour, je suis</span>
+                    <h1 class="home__name">Haythem BELHADJ MANSOUR</h1>
+                    <h3 class="home__education">Développeur</h3>
 
-                        <a href="https://github.com/Haythem42" target="_blank" class="home__social-icon">
-                            <i class="uil uil-github-alt"></i>
+                    <div class="home__buttons">
+                        <a target="_blank" href="assets/pdf/CV_BELHADJMANSOUR_Haythem.pdf" class="button button--ghost">
+                            Visualiser le CV
                         </a>
-                    </div>
-
-                    <div class="home__img">
-                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <mask id="mask0" mask-type="alpha">
-                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
-                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
-                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                            </mask>
-                            <g mask="url(#mask0)">
-                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
-                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
-                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                                <!-- <image class="home__blob-img" x='12' y='18' xlink:href="assets/img/perfil.png"/> -->
-                            </g>
-                        </svg>
-                    </div>
-
-                    <div class="home__data">
-                        <h1 class="home__title">Bonjour, je suis Haythem</h1>
-                        <h3 class="home__subtitle">Etudiant en 2e année de BTS SIO</h3>
-                        <!-- <p class="home__description">Petite description</p> -->
-                        <a href="#contact" class="button button--flex">
-                            Me contacter <i class="uil uil-message button__icon"></i>
-                        </a>
+                        <a href="#about" class="button">A propos de moi</a>
                     </div>
                 </div>
 
-                <div class="home__scroll">
-                    <a href="#about" class="home__scroll-button button--flex">
-                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-                        <span class="home__scroll-name">Défiler vers le bas</span>
-                        <i class="uil uil-arrow-down home__scoll-arrow"></i>
+                <div class="home__handle">
+                    <img src="assets/img/Kirby-Profil.png" alt="" class="home__img">
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/haythem-belhadj-mansour/" class="home__social-link">
+                        <i class='bx bxl-linkedin-square'></i>
+                    </a>
+                    <a href="https://github.com/Haythem42" class="home__social-link">
+                        <i class='bx bxl-github'></i>
                     </a>
                 </div>
+
+                <a href="#about" class="home__scroll">
+                    <i class='bx bx-mouse home__scroll-icon'></i>
+                    <span class="home__scroll-name">Vers le bas</span>
+                </a>
             </div>
         </section>
 
-        <!----- ABOUT ----->
+        <!--=============== ABOUT ===============-->
         <section class="about section" id="about">
-            <h2 class="section__title">Me connaître</h2>
-            <span class="section__subtitle">Mes débuts</span>
+            <span class="section__subtitle">Présentation</span>
+            <h2 class="section__title">A propos de moi</h2>
 
             <div class="about__container container grid">
-                <img src="assets/img/téléchargement.jpg" alt="" class="about__img">
+                <img src="assets/img/Kirby-About.png" alt="" class="about__img">
 
                 <div class="about__data">
-                    <p class="about__description"></p>
-
                     <div class="about__info">
-                        <div>
-                            <span class="about__info-title">02+</span>
-                            <span class="about__info-name">Ans <br> d'expériences</span>
+                        <div class="about__box">
+                            <i class='bx bx-book-reader about__icon'></i>
+                            <h3 class="about__title">Studieux</h3>
+                            <span class="about__subtitle"></span>
                         </div>
-                        <div>
-                            <span class="about__info-title">02+</span>
-                            <span class="about__info-name">Projets <br> complétés</span>
+
+                        <div class="about__box">
+                            <i class='bx bx-briefcase-alt about__icon'></i>
+                            <h3 class="about__title">Autonome</h3>
+                            <span class="about__subtitle"></span>
                         </div>
-                        <div>
-                            <span class="about__info-title">03+</span>
-                            <span class="about__info-name">Stages <br> effectués</span>
+
+                        <div class="about__box">
+                            <i class='bx bx-happy-heart-eyes about__icon'></i>
+                            <h3 class="about__title">Passionné</h3>
+                            <span class="about__subtitle"></span>
                         </div>
                     </div>
 
-                    <div class="about__buttons">
-                        <a download href="assets/pdf/CV_BELHADJMANSOUR_Haythem.pdf" class="button button--flex">
-                            Télécharger mon CV <i class="uil uil-download-alt button__icon"></i>
-                        </a>
-                    </div>
+                    <p class="about__description justify">
+                        Je suis un étudiant dont l'intérêt principal est l'informatique ! J'étudie ce domaine au sein de l'Institution Les Chartreux. <br><br> Actuellement en préparation de mon diplôme de BTS Services Informatiques aux Organisations (Option
+                        Solutions Logicielles et Applications Métiers), j'ai pour objectif de poursuivre mes études dans les domaines de l'informatique tels que le développement et la cybersécurité :)
+                    </p>
+
+                    <a href="#contact" class="button">Me contacter</a>
                 </div>
             </div>
         </section>
 
-        <!------ SKILLS ------>
+        <!--=============== SKILLS ===============-->
         <section class="skills section" id="skills">
-            <h2 class="section__title">Compétences</h2>
-            <span class="section__subtitle">Mon niveau techique</span>
+            <span class="section__subtitle">En entreprise</span>
+            <h2 class="section__title">Stages</h2>
 
-            <div class="skills__container container grid">
-                <div>
-                    <!------ SKILLS 1 ------>
-                    <div class="skills__content skills__open">
-                        <div class="skills__header">
-                            <i class="uil uil-brackets-curly skills__icon"></i>
+            <!-- <div class="skills__container container grid">
+                <div class="skills__content">
+                    <h3 class="skills__title">ASHIFA</h3>
 
-                            <div>
-                                <h1 class="skills__titles">Développeur Frontend</h1>
-                                <span class="skills__subtitle">Plus de 1 ans</span>
-                            </div>
-
-                            <i class="uil uil-angle-down skills__arrow"></i>
-                        </div>
-                        <div class="skills__list grid">
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">HTML</h3>
-                                    <span class="skills__number">60%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__html"></span>
-                                </div>
-                            </div>
-
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">CSS</h3>
-                                    <span class="skills__number">30%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__css"></span>
-                                </div>
-                            </div>
-
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">JavaScript</h3>
-                                    <span class="skills__number">30%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__js"></span>
-                                </div>
-                            </div>
-
-                            <!--<div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">React</h3>
-                                    <span class="skills__number">50%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__react"></span>
-                                </div>
-                            </div>-->
-                        </div>
-                    </div>
-
-                    <!------ SKILLS 2 ------>
-                    <div class="skills__content skills__close">
-                        <div class="skills__header">
-                            <i class="uil uil-server-network skills__icon"></i>
-
-                            <div>
-                                <h1 class="skills__titles">Développeur Backend</h1>
-                                <span class="skills__subtitle">Plus de 1 an</span>
-                            </div>
-
-                            <i class="uil uil-angle-down skills__arrow"></i>
-                        </div>
-                        <div class="skills__list grid">
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">PHP</h3>
-                                    <span class="skills__number">40%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__php"></span>
-                                </div>
-                            </div>
-
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">Python</h3>
-                                    <span class="skills__number">70%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__python"></span>
-                                </div>
-                            </div>
-
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">JavaScript</h3>
-                                    <span class="skills__number">20%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__java"></span>
-                                </div>
-                            </div>
-
-                            <!--<div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">Firebase</h3>
-                                    <span class="skills__number">50%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__firebase"></span>
-                                </div>
-                            </div>-->
-                        </div>
-                    </div>
+                    <p class="testimonial__description">
+                        Et eodem impetu Domitianum praecipitem per scalas itidem funibus constrinxerunt, eosque coniunctos per ampla spatia civitatis acri raptavere discursu. iamque artuum.
+                    </p>
                 </div>
 
-                <!-- <div> -->
-                <!------ SKILLS 3 ------>
-                <!-- <div class="skills__content skills__close">
-                        <div class="skills__header">
-                            <i class="uil uil-swatchbook skills__icon"></i>
+                <div class="skills__content">
+                    <h3 class="skills__title">Elysium Security</h3>
 
-                            <div>
-                                <h1 class="skills__titles">Designer</h1>
-                                <span class="skills__subtitle">Plus de 1 an</span>
-                            </div>
-
-                            <i class="uil uil-angle-down skills__arrow"></i>
-                        </div>
-                        <div class="skills__list grid">
+                    <div class="skills__box">
+                        <div class="skills__group">
                             <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">Figma</h3>
-                                    <span class="skills__number">60%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__figma"></span>
+                                <i class='bx bx-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">PHP</h3>
+                                    <span class="skills__level">Intermédiaire</span>
                                 </div>
                             </div>
 
                             <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">Sketch</h3>
-                                    <span class="skills__number">70%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__sketch"></span>
+                                <i class='bx bx-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Python</h3>
+                                    <span class="skills__level">Débutant</span>
                                 </div>
                             </div>
 
                             <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">Photoshop</h3>
-                                    <span class="skills__number">40%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__photoshop"></span>
+                                <i class='bx bx-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">MySQL</h3>
+                                    <span class="skills__level">Intermédiaire</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div> -->
-            </div>
-        </section>
+            <!-- <div class="skills__content">
+                    <h3 class="skills__title">Développeur Frontend</h3>
 
-        <!---- QUALIFICATION ----->
-        <section class="qualification section">
-            <h2 class="section__title">Parcours</h2>
-            <span class="section__subtitle">Mon parcours</span>
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bx-badge-check'></i>
 
-            <div class="qualification__container container">
-                <div class="qualification__tabs">
-                    <div class="qualification__button button--flex qualification__active" data-target='#education'>
-                        <i class="uil uil-graduation-cap qualification__icon"></i> Education
-                    </div>
-
-                    <div class="qualification__button button--flex" data-target='#work'>
-                        <i class="uil uil-briefcase-alt qualification__icon"></i> Stage
-                    </div>
-                </div>
-
-                <div class="qualification__sections">
-                    <!---- QUALIFICATION CONTENT 1 ----->
-                    <div class="qualification__content" qualification__active data-content id="education">
-                        <!---- QUALIFICATION 1 ----->
-                        <div class="qualification__data">
-                            <div>
-                                <h3 class="qualification__title">Baccalauréat Scientifique</h3>
-                                <span class="qualification__subtitle">Saint-Etienne - Lycée Saint-Louis</span>
-                                <div class="qualification__calendar">
-                                    <i class="uil uil-calendar-alt"></i> 2015 - 2018
+                                <div>
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__level">Intermédiaire</span>
                                 </div>
                             </div>
 
-                            <div>
-                                <span class="qualification__rounder"></span>
-                                <span class="qualification__line"></span>
-                            </div>
-                        </div>
+                            <div class="skills__data">
+                                <i class='bx bx-badge-check'></i>
 
-                        <!---- QUALIFICATION 2 ----->
-                        <div class="qualification__data">
-                            <div></div>
-
-                            <div>
-                                <span class="qualification__rounder"></span>
-                                <span class="qualification__line"></span>
+                                <div>
+                                    <h3 class="skills__name">CSS</h3>
+                                    <span class="skills__level">Intermédiaire</span>
+                                </div>
                             </div>
 
-                            <div>
-                                <h3 class="qualification__title">BTS Services Informatiques aux Organisations</h3>
-                                <span class="qualification__subtitle">Lyon - Institution Les Chartreux/Campus Supalta</span>
-                                <div class="qualification__calendar">
-                                    <i class="uil uil-calendar-alt"></i> 2020 - 2022
+                            <div class="skills__data">
+                                <i class='bx bx-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">JavaScript</h3>
+                                    <span class="skills__level">Débutant</span>
                                 </div>
                             </div>
                         </div>
 
-                        <!---- QUALIFICATION 3 ----->
-                        <!-- <div class="qualification__data">
-                            <div>
-                                <h3 class="qualification__title">Ingénieur Informatique et Cybersécurité</h3>
-                                <span class="qualification__subtitle">Lyon - CPE Lyon</span>
-                                <div class="qualification__calendar">
-                                    <i class="uil uil-calendar-alt"></i> 2022 - 2025
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bx-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Bootstrap</h3>
+                                    <span class="skills__level">Intermédiaire</span>
                                 </div>
                             </div>
 
-                            <div>
-                                <span class="qualification__rounder"></span>
-                                <span class="qualification__line"></span>
-                            </div>
-                        </div> -->
-                    </div>
-                    <!---- QUALIFICATION CONTENT 2 ----->
-                    <div class="qualification__content" data-content id="work">
-                        <!---- QUALIFICATION 1 ----->
-                        <div class="qualification__data">
-                            <div>
-                                <h3 class="qualification__title">Masseur Kinésithérapeute</h3>
-                                <span class="qualification__subtitle">Cabinet Denis Gourd - Saint-Etienne</span>
-                                <div class="qualification__calendar">
-                                    <i class="uil uil-calendar-alt"></i> 2015 - 2015
+                            <div class="skills__data">
+                                <i class='bx bx-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">Git</h3>
+                                    <span class="skills__level">Débutant</span>
                                 </div>
                             </div>
 
-                            <div>
-                                <span class="qualification__rounder"></span>
-                                <span class="qualification__line"></span>
-                            </div>
-                        </div>
+                            <div class="skills__data">
+                                <i class='bx bx-badge-check'></i>
 
-                        <!---- QUALIFICATION 2 ----->
-                        <div class="qualification__data">
-                            <div></div>
-
-                            <div>
-                                <span class="qualification__rounder"></span>
-                                <span class="qualification__line"></span>
-                            </div>
-
-                            <div>
-                                <h3 class="qualification__title">Médecine nucléaire</h3>
-                                <span class="qualification__subtitle">HPL - Saint-Etienne</span>
-                                <div class="qualification__calendar">
-                                    <i class="uil uil-calendar-alt"></i> 2017 - 2017
+                                <div>
+                                    <h3 class="skills__name">Java</h3>
+                                    <span class="skills__level">Débutant</span>
                                 </div>
-                            </div>
-                        </div>
-
-                        <!---- QUALIFICATION 3 ----->
-                        <div class="qualification__data">
-                            <div>
-                                <h3 class="qualification__title">Développeur web</h3>
-                                <span class="qualification__subtitle">ASHIFA - Lyon</span>
-                                <div class="qualification__calendar">
-                                    <i class="uil uil-calendar-alt"></i> 2021 - 2021
-                                </div>
-                            </div>
-
-                            <div>
-                                <span class="qualification__rounder"></span>
-                                <!-- <span class="qualification__line"></span> -->
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            </div>
-        </section>
 
-        <!----- SERVICES ------>
-        <section class="services section" id="services">
-            <h2 class="section__title">Projets</h2>
-            <span class="section__subtitle">Projets réalisés</span>
+                <div class="skills__content">
+                    <h3 class="skills__title">Développeur Backend</h3>
 
-            <div class="services__container container grid">
-                <!----- SERVICES 1 ------>
-                <div class="services__content">
-                    <div>
-                        <i class="uil uil-web-grid services__icon"></i>
-                        <h3 class="services__title">Projet :<br>Contrat</h3>
-                    </div>
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bx-badge-check'></i>
 
-                    <span class="button button--flex button--small button--link services__button">
-                        Voir davantage 
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </span>
+                                <div>
+                                    <h3 class="skills__name">PHP</h3>
+                                    <span class="skills__level">Intermédiaire</span>
+                                </div>
+                            </div>
 
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <h4 class="services__modal-title">Projet : Contrat</h4>
-                            <i class="uil uil-times services__modal-close"></i>
+                            <div class="skills__data">
+                                <i class='bx bx-badge-check'></i>
 
-                            <ul class="services__modal-services grid">
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Présentation 1 du projet</p>
-                                </li>
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Présentation 2 du projet</p>
-                                </li>
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Présentation 3 du projet</p>
-                                </li>
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Présentation 4 du projet</p>
-                                </li>
-                            </ul>
+                                <div>
+                                    <h3 class="skills__name">Python</h3>
+                                    <span class="skills__level">Débutant</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bx-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills__name">MySQL</h3>
+                                    <span class="skills__level">Intermédiaire</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <!----- SERVICES 2 ------>
-                <div class="services__content">
-                    <div>
-                        <i class="uil uil-arrow services__icon"></i>
-                        <h3 class="services__title">Projet :<br>X</h3>
-                    </div>
-
-                    <span class="button button--flex button--small button--link services__button">
-                        Voir davantage 
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </span>
-
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <h4 class="services__modal-title">Projet : X</h4>
-                            <i class="uil uil-times services__modal-close"></i>
-
-                            <ul class="services__modal-services grid">
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Présentation 1 du projet</p>
-                                </li>
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Présentation 2 du projet</p>
-                                </li>
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Présentation 3 du projet</p>
-                                </li>
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Présentation 4 du projet</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!----- SERVICES 3 ------>
-                <div class="services__content">
-                    <div>
-                        <i class="uil uil-pen services__icon"></i>
-                        <h3 class="services__title">Projet :<br>X</h3>
-                    </div>
-
-                    <span class="button button--flex button--small button--link services__button">
-                        Voir davantage 
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </span>
-
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <h4 class="services__modal-title">Projet : X</h4>
-                            <i class="uil uil-times services__modal-close"></i>
-
-                            <ul class="services__modal-services grid">
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Présentation 1 du projet</p>
-                                </li>
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Présentation 2 du projet</p>
-                                </li>
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Présentation 3 du projet</p>
-                                </li>
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Présentation 4 du projet</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!----- PORTFOLIO ----->
-        <section class="portfolio section" id="portfolio">
-            <h2 class="section__title">Veille informatique</h2>
-            <span class="section__subtitle">Nouvelles récentes</span>
-
-            <div class="portfolio__container container swiper-container">
+                </div> 
+            </div> -->
+            <div class="testimonial__container container swiper">
                 <div class="swiper-wrapper">
-                    <!----- PORTFOLIO 1 ----->
-                    <div class="portfolio__container grid swiper-slide">
-                        <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/ashifa.jpg" alt="" class="testimonial__img">
 
-                        <div class="portfolio__data">
-                            <h3 class="portfolio_title">La réalité augmentée</h3>
-                            <p class="portfolio__description">Comme de nombreuses technologies, la réalité augmentée a rencontré de nombreux obstacles à son adoption, tant au niveau public que commercial. On peut citer entre autres les problèmes de calage, la dépendance à l'équipement,
-                                les coûts associés, de nombreux problèmes de sécurité et même d'éthique.<br><br>Néanmoins, le marché devrait se développer, tiré par les futurs développements technologiques. Au fil du temps, les lunettes peurront enfin
-                                être utile dans les activités sociaux-professionnels. De plus, de nouveaux capteurs plus précis pourraient également contribuer à améliorer le rendu des applications de réalité augmentée. Peut-être que l'avenir de la réalité
-                                augmentée est d'être un outil d'apprentissage et une technologie qui apparaîtront de plus en plus dans différents domaines de la société actuelle.<br><br>Aujourd'hui, la réalité augmentée n'est plus de la science-fiction,
-                                mais a un réel potentiel. Une autre limitation : c'est de trouver une idée à la fois nouvelle et utile. Enfin, on cherche encore des idées qui rendrait la réalité augmentée incontournable.</b>
-                            </p>
-                            <a href="#" class="button button--flex button--small portfolio__button">
-                                Plus
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
+                        <h3 class="testimonial__name">ASHIFA</h3>
+                        <p class="testimonial__description justify">
+                            J'ai effectué mon premier stage de BTS SIO dans le domaine de l'informatique, plus particulièrmeent dans le développement web, dans l'Association Santé Humanisme et Innovation Franco-Algérienne. <br><br>L'association oeuvre
+                            dans divers pays n'ayant pas localement les moyens techniques, financiers ainsi que les connaissances nécessaires pour se débrouiller, en leur fournissant du matériel, des équipements, et également des soins.<br><br>L'objectif
+                            de ce stage était de me faire découvrir le métier de développeur web et d'approfondir mes compétences développées au cours de ma première année de BTS. <br><br>Lors de ce stage, il m'a été demandé de développé un nouveau site
+                            internet, plus moderne et attrayant afin d'attirer davantage l'attention des visiteurs.
+                        </p>
+                        <br>
+                        <div>
+                            <h4 class="testimonial__name">Outils et langages</h4>
+                            <img src="assets/img/WordPress.png" alt="" class="tools">
+                            <img src="assets/img/vscode.png" alt="" class="st1 tools">
+                            <img src="assets/img/teams.png" alt="" class="tools">
+                            <img src="assets/img/html.png" alt="" class="st2 tools">
+                            <img src="assets/img/css.png" alt="" class="st1 tools">
+                            <img src="assets/img/logo-js.png" alt="" class="tools">
                         </div>
-                    </div>
-
-                    <!----- PORTFOLIO 2 ----->
-                    <div class="portfolio__container grid swiper-slide">
-                        <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
-
-                        <div class="portfolio__data">
-                            <h3 class="portfolio_title">Un site moderne</h3>
-                            <p class="portfolio__description">Site web qui s'adapte à tous les appareils avec une interface utilisateur agréable et des intéractions animées </p>
-                            <a href="#" class="button button--flex button--small portfolio__button">
-                                Demo
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!----- PORTFOLIO 3 ----->
-                    <div class="portfolio__container grid swiper-slide">
-                        <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
-
-                        <div class="portfolio__data">
-                            <h3 class="portfolio_title">Un site moderne</h3>
-                            <p class="portfolio__description">Site web qui s'adapte à tous les appareils avec une interface utilisateur agréable et des intéractions animées </p>
-                            <a href="#" class="button button--flex button--small portfolio__button">
-                                Demo
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Add Arrows -->
-                <div class="swiper-button-next">
-                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-                </div>
-                <div class="swiper-button-prev">
-                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-
-                </div>
-
-                <!-- Add Pagination -->
-                <div class="swiper-pagination"></div>
-            </div>
-        </section>
-
-        <!----- PROJECT IN MIND ----->
-        <section class="project section">
-            <div class="project__bg">
-                <div class="project__container container grid">
-                    <div class="project__data">
-                        <h2 class="project__title">Vous avez un nouveau projet ?</h2>
-                        <p class="project_description">Contactez moi dès maintenant et disposez de 30% de réduction sur votre nouveau projet.</p>
-                        <a href="#contact" class="button button--flex button--white">
-                            Me contacter 
-                            <i class="uil uil-message project__icon button__icon"></i>
+                        <a target="_blank" href="assets/pdf/Rapport_de_stage_Haythem_BM.pdf" class="button button--ghost stage">
+                            Rapport de stage
                         </a>
                     </div>
 
-                    <img src="assets/img/images.jpg" alt="" class="project__img">
-                </div>
-            </div>
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/elys.png" alt="" class="testimonial__img">
 
+                        <h3 class="testimonial__name">Elysium Security</h3>
+                        <p class="testimonial__description justify">
+                            Pour mon second stage, je l'ai effectué au sein d'Elysium Security.<br><br>Elysium Security est une société d'expertise en sécurité informatique fournissant des solutions de sécurité françaises aux entreprises.<br><br> L'objectif
+                            de ce stage était de me faire découvrir le métier de développeur au seins d'une équipe de développeur. J'ai pu réellement découvrir une facette différente du métier de développeur.<br><br>J'ai pu travailler en mode projet,
+                            effectuer diverses tâches comme de la création de page, de l'ajout de fonctionnalité, du rapport et de la correction de bugs. Ce fut une expérience enrichissante.
+                        </p>
+                        <br>
+                        <div class="row">
+                            <h4 class="testimonial__name">Outils et langages</h4>
+                            <img src="assets/img/logo-twig.png" alt="" class="st3 tools">
+                            <img src="assets/img/logo-phpstorm.jpg" alt="" class="st3 tools">
+                            <img src="assets/img/logo-element.png" alt="" class="st3 tools">
+                            <img src="assets/img/logo-tuleap.png" alt="" class="st3 tools">
+                            <img src="assets/img/logo-linux.png" alt="" class="st3 tools">
+                            <img src="assets/img/logo-thunderbird.png" alt="" class="st3 tools">
+                            <img src="assets/img/logo-visjs" alt="" class="st3 tools">
+                            <img src="assets/img/logo-git.png" alt="" class="st3 tools">
+                            <img src="assets/img/logophp.png" alt="" class="tools">
+                            <img src="assets/img/logo-js.png" alt="" class="st2 tools">
+                        </div>
+                        <!-- <a target="_blank" href="assets/pdf/Rapport_de_stage_Haythem_BM.pdf" class="button button--ghost stage">
+                            Rapport de stage
+                        </a> -->
+                    </div>
+                </div>
+
+                <!-- <div class="swiper-pagination"></div> -->
+            </div>
         </section>
 
-        <!----- TESTIMONIAL ----->
-        <section class="testimonial section">
-            <h2 class="section__title">Témoignages</h2>
+        <!--=============== SERVICES ===============-->
+        <section class="services section" id="services">
+            <span class="section__subtitle">Compétences validées</span>
+            <h2 class="section__title">Réalisations</h2>
+
+            <div class="home__data">
+                <a target="_blank" href="assets/pdf/E4 - Tableau de synthèse.pdf" class="button button--ghost stage">
+                    Tableau de synthèse des réalisations professionnelles
+                </a>
+            </div>
+
+            <div class="services__container container grid">
+                <div class="services__card">
+                    <h3 class="services__title">Réalisations <br> Professionnelles</h3>
+
+                    <span class="services__button">
+                        Voir davantage <i class='bx bx-right-arrow-alt services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Réalisation</h3>
+                            <p class="services__modal-description">
+                                Réalisations professionnelles
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Rapport d'audit du site internet KLEKT
+                                        <a href="assets/pdf/RapportAudit - KLEKT by Haythem BM.pdf" class='bx bx-info-circle services__icon'></a>
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Réponse d'appel d'offre
+                                        <a href="assets/pdf/Réponse d'appel d'offres by Haythem BM.pdf" class='bx bx-info-circle services__icon'></a>
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Mail d'invitation pour un webinar
+                                        <a href="assets/pdf/Mail d'invitation pour un webinar.pdf" class='bx bx-info-circle services__icon'></a><br> Mail de remerciement pour la participation au webinar
+                                        <a href="assets/pdf/Mail de remerciement pour la participation au webinar.pdf" class='bx bx-info-circle services__icon'></a>
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Spécifications fonctionnelles et techniques d'une application (ResAppli)
+                                        <a href="assets/pdf/Prixy_Spécifications by Haythem BM.pdf" class='bx bx-info-circle services__icon'></a>
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Déroulement projet Prixy
+                                        <a href="assets/pdf/Déroulement projet Prixy.pdf" class='bx bx-info-circle services__icon'></a>
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Documentation utilisateur d'une application (ResAppli)
+                                        <a href="assets/pdf/Prixy_Documentation_Utilisateur by Haythem BM.pdf" class='bx bx-info-circle services__icon'></a>
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Portfolio
+                                        <a href="https://haythem42.github.io/" class='bx bx-info-circle services__icon'></a>
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Site WordPress pour l'ASHIFA
+                                        <a href="assets/pdf/Site WordPress.pdf" class='bx bx-info-circle services__icon'></a><br> Rapport de stage
+                                        <a href="assets/pdf/Rapport_de_stage_Haythem_BM.pdf" class='bx bx-info-circle services__icon'></a>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <h3 class="services__title">Veille<br>Technologique</h3>
+
+                    <span class="services__button">
+                        Voir davantage <i class='bx bx-right-arrow-alt services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="work__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Veille technologique</h3>
+                            <p class="services__modal-description">
+                                La Réalité Augmentée
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="work-item">
+                                    <i class='bx work__modal-icon'>Synthèse</i>
+                                    <p class="services__modal-info">
+                                        Pour ma veille technologique, j'ai décidé de m'orienter vers la réalité augmentée, une perception de plus en plus utilisée de nos jours et qui ne cesse d'évoluer.<br> J'ai fait le choix de la réalité augmentée car
+                                        c'est une technologie qui m'intriguait. La réalité augmentée fait de plus en plus partie de notre quotidien, on peut l'expérimenté en allant voir un film au cinéma (3D). Je voulais donc en apprendre davantage sur
+                                        cette technologie, mais également sur son évolution éventuel au cours du temps.<br><br> Cette veille effectuée tout au long de l'année m'a permis d'en apprendre beaucoup, notamment sur ses possibilités d'utilisation
+                                        futures. Cette étude m'a également permis d'améliorer mes efforts de recherches et de sélection d'information face à une diversité d'informations qu'on peut découvrir sur internet.<br><br> J'en suis venu à conclure
+                                        que la réalité augmentée n'était qu'à son début de développement et que plus tard, elle fera partie intégrante de notre quotidien, autant personnel que professionnel, ce qui augure son brillant avenir.
+                                    </p>
+                                </li>
+
+                                <li class="work-item">
+                                    <i class='bx work__modal-icon'>L'histoire de la réalité augmentée</i>
+                                    <p class="services__modal-info">
+                                        Article retraçant l'histoire de la réalité augmentée.
+                                        <a href="https://ebrary.net/123117/sociology/historical_overview" class="button__article button button--ghost">
+                                            Accéder à l'article
+                                        </a>
+                                    </p>
+                                </li>
+
+                                <li class="work-item">
+                                    <i class='bx work__modal-icon'>Apple se lance dans la fabrication de lunettes à réalité augmentée</i>
+                                    <p class="services__modal-info">
+                                        Article montrant le lancemement d'Apple dans les lunettes à réalité augmentée.
+                                        <a href="https://www.sciencesetavenir.fr/high-tech/apple-acquiert-un-fabricant-de-lentilles-pour-lunettes-a-realite-augmentee_127087" class="button__article button button--ghost">
+                                            Accéder à l'article
+                                        </a>
+                                    </p>
+                                </li>
+
+                                <li class="work-item">
+                                    <i class='bx work__modal-icon'>La réalité augmentée au service de la médecine</i>
+                                    <p class="services__modal-info">
+                                        Article montrant le l'utilisaton de la réalité augmentée lors d'une opération chirurgicale.
+                                        <a href="https://www.sciencesetavenir.fr/sante/premiere-mondiale-une-operation-en-realite-augmentee_117099" class="button__article button button--ghost">
+                                            Accéder à l'article
+                                        </a>
+                                    </p>
+                                </li>
+
+                                <!-- <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Doc 3
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Doc 4
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check services__modal-icon'></i>
+                                    <p class="services__modal-info">
+                                        Doc 5
+                                    </p>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== WORK ===============-->
+        <section class="work section" id="work">
+            <span class="section__subtitle"></span>
+
+            <h2 class="section__title">Projets récents</h2>
+
+            <div class="work__filters">
+                <span class="work__item active-work" data-filter='all'>All</span>
+                <span class="work__item" data-filter='.web'>Web</span>
+                <span class="work__item" data-filter='.logiciel'>Logiciel</span>
+                <!-- <span class="work__item" data-filter='.mobile'>Mobile</span> -->
+            </div>
+
+            <div class="work__container container grid">
+                <div class="work__card mix web">
+                    <img src="assets/img/work1.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Application Web</h3>
+
+                    <span class="services__button">
+                        Voir davantage <i class='bx bx-right-arrow-alt services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="work__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Application Web</h3>
+                            <p class="services__modal-description">
+                                Client léger : GSBweb
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx work__modal-icon'>Contexte</i>
+                                    <p class="services__modal-info justify">
+                                        Le laboratoire Galaxy Swiss Bourdin (GSB) est une entreprise spéacialisée dans le pharmaceutique.<br>L'entreprise souhaite porter une attention nouvelle à sa force commerciale dans un double objectif : obtenir une
+                                        vision plus régulière et efficace de l'activité menée sur le terrain auprès des praticiens, mais aussi redonner confiance aux équipes malmenées par les fusions récentes.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx work__modal-icon'>Demande</i>
+                                    <p class="services__modal-info justify">
+                                        Le laboratoire désire mettre à disposition des visiteurs médicaux une application Web permettant de centraliser les comptes-rendus de visite. Cette base d'information sera utilisée à des fins d'élaboration de la démarche de communication auprès des praticiens
+                                        et donnera une vision individuelle et synthétique de l'activité de représentation.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx work__modal-icon'>Fonctionnalités</i>
+                                    <p class="services__modal-info justify">
+                                        Pour les visiteurs : s'authentifier, visualiser, créer, modifier, supprimer un rapport de visite, les informations de practicien.<br> Pour le personnel du service comptable : s'authentifier, visualiser l'activité
+                                        des visiteurs.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx work__modal-icon'>Accessibilité</i>
+                                    <p class="services__modal-info justify">
+                                        L’application est accessible en ligne aux seuls membres de l’entreprise via une authentification avec login et mot de passe.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx work__modal-icon'>Documentation</i>
+                                    <a target="_blank" href="assets/pdf/GSB-GSBweb-CDC-ClientLéger_by_HaythemBM.pdf" class="work__modal-link-cdc">
+                                        Cahier des charges <i class='bx bx-right-arrow-alt work__icon' ></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- <a href="#" class="work__button">
+                        Démo <i class='bx bx-right-arrow-alt work__icon' ></i>
+                    </a> -->
+                </div>
+
+                <div class="work__card mix logiciel">
+                    <img src="assets/img/work3.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Application Logiciel</h3>
+
+                    <span class="services__button">
+                        Voir davantage <i class='bx bx-right-arrow-alt services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="work__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Application Logiciel</h3>
+                            <p class="services__modal-description">
+                                Client lourd : AppliFrais
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx work__modal-icon'>Contexte</i>
+                                    <p class="services__modal-info justify">
+                                        Le laboratoire Galaxy Swiss Bourdin (GSB) est une entreprise spéacialisée dans le pharmaceutique.<br>L'entreprise souhaite porter une attention nouvelle à sa force commerciale dans un objectif : obtenir une vision
+                                        plus régulière et efficace de l'activité menée sur le terrain auprès des praticiens. Le suivi des frais est actuellement géré de plusieurs façons selon le laboratoire d'origine des visiteurs. On souhaite uniformiser
+                                        cette gestion.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx work__modal-icon'>Demande</i>
+                                    <p class="services__modal-info justify">
+                                        L'application doit permettre d'enregistrer tout frais engagé, aussi bien pour l'activité directe (déplacement, restauration et hébergement) que pour les activités annexes (événementiel, conférences, autres), et de présenter un suivi daté des opérations
+                                        menées par le service comptable (réception des pièces, validation de la demande de remboursement, mise en paiement, remboursement effectué).
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx work__modal-icon'>Fonctionnalités</i>
+                                    <p class="services__modal-info justify">
+                                        Pour les visiteurs : s'authentifier, renseigner et consulter leurs états de frais.<br> Pour le personnel du service comptable : s'authentifier, consulter les fiches de frais des visiteurs et réaliser le suivi des
+                                        états des frais des visiteurs médicaux (validée, refusée, en attente).
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx work__modal-icon'>Accessibilité</i>
+                                    <p class="services__modal-info justify">
+                                        L’application est accessible aux seuls membres de l’entreprise via une authentification avec login et mot de passe.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx work__modal-icon'>Documentation</i>
+                                    <a target="_blank" href="assets/pdf/GSB-Appli-Frais-CDC-ClientLourd_by_HaythemBM.pdf" class="work__modal-link-cdc">
+                                        Cahier des charges <i class='bx bx-right-arrow-alt work__icon' ></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- <a href="#" class="work__button">
+                        Démo <i class='bx bx-right-arrow-alt work__icon' ></i>
+                    </a> -->
+                </div>
+
+                <!-- <div class="work__card mix mobile">
+                    <img src="assets/img/work2.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Application Mobile</h3>
+
+                    <a href="#" class="work__button">
+                        Démo <i class='bx bx-right-arrow-alt work__icon' ></i>
+                    </a>
+                </div> -->
+            </div>
+        </section>
+
+        <!--=============== TESTIMONIALS ===============-->
+        <!-- <section class="testimonial section" id="testimonial">
             <span class="section__subtitle">Ils le disent</span>
+            <h2 class="section__title">Témoignages</h2>
 
-            <div class="testimonial__container container swiper-container">
+            <div class="testimonial__container container swiper">
                 <div class="swiper-wrapper">
-                    <!----- TESTIMONIAL 1 ----->
-                    <div class="testimonial__content swiper-slide">
-                        <div class="testimonial__data">
-                            <div class="testimonial__header">
-                                <img src="assets/img/testimonial1.jpg" alt="" class="testimonial__img">
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/testimonial1.png" alt="" class="testimonial__img">
 
-                                <div>
-                                    <h3 class="testimonial__name">Camille Onette</h3>
-                                    <span class="testimonial__client">Client</span>
-                                </div>
-                            </div>
-
-                            <div>
-                                <i class="uil uil-star testimonial__icon-star"></i>
-                                <i class="uil uil-star testimonial__icon-star"></i>
-                                <i class="uil uil-star testimonial__icon-star"></i>
-                                <i class="uil uil-star testimonial__icon-star"></i>
-                                <i class="uil uil-star testimonial__icon-star"></i>
-                            </div>
-                        </div>
-
-                        <p class="testimonial__description">Et eodem impetu Domitianum praecipitem per scalas itidem funibus constrinxerunt, eosque coniunctos per ampla spatia civitatis acri raptavere discursu. iamque artuum et membrorum divulsa conpage superscandentes corpora mortuorum
-                            ad ultimam truncata deformitatem velut exsaturati mox abiecerunt in flumen.
+                        <h3 class="testimonial__name">Math Rice</h3>
+                        <p class="testimonial__description">
+                            Et eodem impetu Domitianum praecipitem per scalas itidem funibus constrinxerunt, eosque coniunctos per ampla spatia civitatis acri raptavere discursu. iamque artuum.
                         </p>
                     </div>
 
-                    <!----- TESTIMONIAL 2 ----->
-                    <div class="testimonial__content swiper-slide">
-                        <div class="testimonial__data">
-                            <div class="testimonial__header">
-                                <img src="assets/img/testimonial2.jpg" alt="" class="testimonial__img">
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/testimonial2.png" alt="" class="testimonial__img">
 
-                                <div>
-                                    <h3 class="testimonial__name">Math Rice</h3>
-                                    <span class="testimonial__client">Client</span>
-                                </div>
-                            </div>
-
-                            <div>
-                                <i class="uil uil-star testimonial__icon-star"></i>
-                                <i class="uil uil-star testimonial__icon-star"></i>
-                                <i class="uil uil-star testimonial__icon-star"></i>
-                                <i class="uil uil-star testimonial__icon-star"></i>
-                                <i class="uil uil-star testimonial__icon-star"></i>
-                            </div>
-                        </div>
-
-                        <p class="testimonial__description">Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?
-                        </p>
-                    </div>
-
-                    <!----- TESTIMONIAL 3 ----->
-                    <div class="testimonial__content swiper-slide">
-                        <div class="testimonial__data">
-                            <div class="testimonial__header">
-                                <img src="assets/img/testimonial3.jpg" alt="" class="testimonial__img">
-
-                                <div>
-                                    <h3 class="testimonial__name">Guy Tar</h3>
-                                    <span class="testimonial__client">Client</span>
-                                </div>
-                            </div>
-
-                            <div>
-                                <i class="uil uil-star testimonial__icon-star"></i>
-                                <i class="uil uil-star testimonial__icon-star"></i>
-                                <i class="uil uil-star testimonial__icon-star"></i>
-                                <i class="uil uil-star testimonial__icon-star"></i>
-                                <i class="uil uil-star testimonial__icon-star"></i>
-                            </div>
-                        </div>
-
-                        <p class="testimonial__description">Et eodem impetu Domitianum praecipitem per scalas itidem funibus constrinxerunt, eosque coniunctos per ampla spatia civitatis acri raptavere discursu. iamque artuum et membrorum divulsa conpage superscandentes corpora mortuorum
-                            ad ultimam truncata deformitatem velut exsaturati mox abiecerunt in flumen.
+                        <h3 class="testimonial__name">Camille Onette</h3>
+                        <p class="testimonial__description">
+                            Et eodem impetu Domitianum praecipitem per scalas itidem funibus constrinxerunt, eosque coniunctos per ampla spatia civitatis acri raptavere discursu. iamque artuum.
                         </p>
                     </div>
                 </div>
 
-                <!-- Add Pagination -->
-                <div class="swiper-pagination swiper-pagination-testimonial"></div>
+                <div class="swiper-pagination"></div>
             </div>
-        </section>
+        </section> -->
 
-        <!----- CONTACT ME ----->
+        <!--=============== CONTACT ===============-->
         <section class="contact section" id="contact">
-            <h2 class="section__title">Me contacter</h2>
             <span class="section__subtitle">Entrer en contact</span>
+            <h2 class="section__title">Me contacter</h2>
 
-            <div class="contact__container container grid">
-                <div>
-                    <!-- <div class="contact__information">
-                        <i class="uil uil-phone contact__icon"></i>
+            <!-- <div class="contact__container container grid"> -->
+            <div class="contact__container container">
+                <div class="contact__content">
+                    <h3 class="contact__title">Me joindre</h3>
 
-                        <div>
-                            <h3 class="contact__title">Téléphone</h3>
-                            <span class="contact__subtitle">07.12.23.34.45</span>
-                        </div>
-                    </div> -->
-                    <div class="contact__information">
-                        <i class="uil uil-envelope contact__icon"></i>
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class='bx bx-mail-send contact__card-icon'></i>
+                            <h3 class="contact__card-title">Courriel</h3>
+                            <span class="contact__card-data">haythem42@outlook.fr</span>
 
-                        <div>
-                            <h3 class="contact__title">Courriel</h3>
-                            <span class="contact__subtitle">haythem42@outlook.fr</span>
-                        </div>
-                    </div>
-                    <!-- <div class="contact__information">
-                        <i class="uil uil-map-marker contact__icon"></i>
-
-                        <div>
-                            <h3 class="contact__title">Adresse</h3>
-                            <span class="contact__subtitle">38 rue Pierre Motte, Saint-Dié</span>
-                        </div>
-                    </div> -->
-                </div>
-
-                <form action="" class="contact__form grid">
-                    <div class="contact__inputs grid">
-                        <div class="contact__content">
-                            <label for="" class="contact__label">Nom*</label>
-                            <input type="text" class="contact__input" required>
-                        </div>
-                        <div class="contact__content">
-                            <label for="" class="contact__label">Email*</label>
-                            <input type="email" class="contact__input" required>
-                        </div>
-                        <div class="contact__content">
-                            <label for="" class="contact__label">Projet</label>
-                            <input type="text" class="contact__input">
-                        </div>
-                        <div class="contact__content">
-                            <label for="" class="contact__label">Message*</label>
-                            <textarea name="" id="" cols="0" rows="7" class="contact__input" required></textarea>
-                        </div>
-
-                        <div>
-                            <a href="#" class="button button--flex">
-                                Envoyer le message
-                                <i class="uil uil-message button__icon"></i>
+                            <a href="mailto:haythem42@outlook.fr" target="_blank" class="contact__button">
+                                M'écrire <i class='bx bx-right-arrow-alt contact__button-icon' ></i>
                             </a>
                         </div>
                     </div>
-                </form>
+                </div>
+
+                <!-- <div class="contact__content">
+                    <h3 class="contact__title">Besoin d'informations ?</h3>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Nom*</label>
+                            <input type="text" placeholder="Veuillez entrer votre nom*" class="contact__form-input" required>
+                        </div>
+
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Mail*</label>
+                            <input type="email" placeholder="Veuillez entrer votre courriel" class="contact__form-input" required>
+                        </div>
+
+                        <div class="contact__form-div contact__form-area">
+                            <label for="" class="contact__form-tag">Message*</label>
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Entrez votre message" class="contact__form-input" required></textarea>
+                        </div>
+
+                        <button class="button">Envoyer</button>
+                    </form>
+                </div> -->
             </div>
         </section>
     </main>
 
-    <!------- FOOTER ------->
+    <!--=============== FOOTER ===============-->
     <footer class="footer">
-        <div class="footer__bg">
-            <div class="footer__container container grid">
-                <div>
-                    <h1 class="footer__title">Item</h1>
-                    <span class="footer__subtitle">Développeur frontend</span>
-                </div>
+        <div class="footer__container container">
+            <h1 class="footer__title">Haythem</h1>
 
-                <ul class="footer__links">
-                    <li>
-                        <a href="#services" class="footer__link">Projets</a>
-                    </li>
-                    <li>
-                        <a href="#portfolio" class="footer__link">Veille technologique</a>
-                    </li>
-                    <li>
-                        <a href="#contact" class="footer__link">Me contacter</a>
-                    </li>
-                </ul>
+            <ul class="footer__list">
+                <li>
+                    <a href="#about" class="footer__link">A propos de moi</a>
+                </li>
+                <li>
+                    <a href="#skills" class="footer__link">Stages</a>
+                </li>
+                <li>
+                    <a href="#services" class="footer__link">Réalisations</a>
+                </li>
+                <li>
+                    <a href="#work" class="footer__link">Projets</a>
+                </li>
+                <!-- <li>
+                    <a href="#testimonial" class="footer__link">Témoignages</a>
+                </li> -->
+                <li>
+                    <a href="#contact" class="footer__link">Contact</a>
+                </li>
+            </ul>
 
-                <div class="footer__socials">
-                    <a href="https://www.facebook.com/haythem.belhadj.581" target="_blank" class="footer__social">
-                        <i class="uil uil-facebook-f"></i>
-                    </a>
+            <ul class="footer__social">
+                <!-- <a href="https://www.facebook.com/haythem.belhadj.581/" target="_blank" class="footer__social-link">
+                    <i class='bx bxl-facebook'></i>
+                </a> -->
+                <a href="https://www.instagram.com/haythembhm/" target="_blank" class="footer__social-link">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+            </ul>
 
-                    <a href="https://www.instagram.com/haythembhm/" target="_blank" class="footer__social">
-                        <i class="uil uil-instagram"></i>
-                    </a>
-
-                    <!-- <a href="https://twitter.com/" target="_blank" class="footer__social">
-                        <i class="uil uil-twitter-alt"></i>
-                    </a> -->
-                </div>
-            </div>
-
-            <p class="footer__copy">&#169; Item, Tous droits réservés</p>
+            <span class="footer__copy">
+                Haythem &#169; Tous droits réservés
+            </span>
         </div>
     </footer>
 
-    <!------- SCROLL TOP ------->
-    <a href="" class="scrollup" id="scroll-up">
-        <i class="uil uil-arrow-up scrollup__icon"></i>
-    </a>
-    <!------- SWIPER JS ------->
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
     <script src="assets/js/swiper-bundle.min.js"></script>
 
-    <!------- MAIN JS ------->
-    <script src="assets/js/main.js"></script>
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
 
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
