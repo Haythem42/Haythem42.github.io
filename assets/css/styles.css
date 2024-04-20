@@ -510,6 +510,7 @@ body.light-theme {
 
 .about__description {
     margin-bottom: 2rem;
+    text-align: justify;
 }
 
 
@@ -1138,7 +1139,7 @@ tr {
         margin: 0 auto;
     }
     .about__info {
-        grid-template-columns: repeat(3, 140px);
+        grid-template-columns: repeat(3, 145px);
         justify-content: center;
     }
     .about__description {
@@ -1241,7 +1242,7 @@ tr {
         padding: 1rem 1.25rem;
     }
     .about__description {
-        padding: 0 4rem 0 0;
+        padding: 0 0 0 0;
         margin-bottom: 2.5rem;
     }
     .skills__container {
