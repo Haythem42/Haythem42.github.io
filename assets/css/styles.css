@@ -888,6 +888,12 @@ tr {
     margin-bottom: 1rem;
 }
 
+.testimonial__img3 {
+    width: 80px;
+    border-radius: 3rem;
+    margin-bottom: 1rem;
+}
+
 .testimonial__name {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
